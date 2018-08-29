@@ -1,4 +1,15 @@
 # $.geocomplete() - Version 1.7.0
+
+This is a slightly modified version of the no-longer-maintained jquery.geocomplete library https://github.com/ubilabs/geocomplete.
+
+I've maintained the original attribution, but now maintain my own copy https://github.com/rogeremasse/geocomplete
+
+The bulk of the changes come from applying the following pull requests:
+
+* Fix: copy paste the address and press enter on search-box field is not working #291 https://github.com/ubilabs/geocomplete/pull/291
+* Select first result on blur #340 https://github.com/ubilabs/geocomplete/pull/340
+* Fix select first result #339 https://github.com/ubilabs/geocomplete/pull/339
+
 ## jQuery Geocoding and Places Autocomplete Plugin
 
 An advanced jQuery plugin that wraps the Google Maps API's [Geocoding](https://code.google.com/apis/maps/documentation/javascript/geocoding.html) and [Places Autocomplete](https://code.google.com/apis/maps/documentation/javascript/places.html#places_autocomplete) services. You simply provide an input that lets you search for locations with a nice autocomplete dropdown. Optionally add a container to show an interactive map and a form that will be populated with the address details.
